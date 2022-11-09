@@ -41,6 +41,36 @@ public class Main {
         float allKinder = kinderAS + kinderEA + kinderLP;
         float kinderOfPaper = allKinder / totalSheetsOfPaper;
         System.out.println("На каждого ученика рассчитано " +kinderOfPaper+ " листов бумаги");
+        System.out.println("Задание 4");
+        int numberOfBottles = 16;
+        int timeWorker = 2;
+        int numberOfBottles1min = numberOfBottles / timeWorker;
+        System.out.println("За 1 мин, машины произвела бутылок в колличестве " + numberOfBottles1min + " штук");
+        int numberOfBottles20min = numberOfBottles1min * 20; //20 мин
+        System.out.println("За 20 мин, машины произвела бутылок в колличестве " + numberOfBottles20min + " штук");
+        int numberOfBottles1day = (numberOfBottles1min * 60) * 24 ;// 24 часа
+        System.out.println("За сутки, машины произвела бутылок в колличестве " + numberOfBottles1day + " штук");
+        int numberOfBottles3day = numberOfBottles1day * 3; // 3 дня
+        System.out.println("За 3 дня, машины произвела бутылок в колличестве " + numberOfBottles3day + " штук");
+        int numberOfBottles1month = numberOfBottles1day * 31; // 31 дня
+        System.out.println("За 1 месяц, машины произвела бутылок в колличестве " + numberOfBottles1month + " штук");
+        System.out.println("Задание 6");
+        float bananas = 5 * 80;
+        float milk = 2 * 105;
+        float iceCream = 2 * 100;
+        float egg = 4 * 70;
+        float breakfast = bananas + milk + iceCream + egg;
+        float breakfastKg = breakfast / 1000;
+        System.out.println("Вес завтрака состовляет " + breakfast + " грамм, или " + breakfastKg + " кг");
+        System.out.println("Задание 7");
+        int weightKg = 7;
+        int weightG = 7 * 1000;
+        int diet1 = 250;
+        int diet2 = 500;
+        int dietResult1 = weightG / diet1;
+        int dietResult2 = weightG / diet2;
+        System.out.println("Для похудения на " + weightKg + " кг, импользуя диету 1, потребуется " + dietResult1 + " дней" );
+        System.out.println("Для похудения на " + weightKg + " кг, импользуя диету 2, потребуется " + dietResult2 + " дней" );
 
 
     }
