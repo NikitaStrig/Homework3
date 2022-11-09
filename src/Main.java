@@ -71,7 +71,33 @@ public class Main {
         int dietResult2 = weightG / diet2;
         System.out.println("Для похудения на " + weightKg + " кг, импользуя диету 1, потребуется " + dietResult1 + " дней" );
         System.out.println("Для похудения на " + weightKg + " кг, импользуя диету 2, потребуется " + dietResult2 + " дней" );
+        System.out.println("Задание 8");
+
+        // Маша
+        int Masha = 67760;
+        double MashaUp = (Masha * 0.1) + Masha; // Новая ставка
+        double MashaYearOld = Masha * 12; // Годовая ЗП по старой ставки
+        double MashaYearNew = MashaUp * 12; // Годовая ЗП по новой ставки
+        double MashaYearDifference = MashaYearNew - MashaYearOld; // разница
+        System.out.println("Маша теперь получает " + MashaUp + " рублей. Годовой доход вырос на " + MashaYearDifference + " рублей");
+
+        // Денис
+        int Denis = 83690;
+        double DenisUp = (Denis * 0.1) + Denis; // Новая ставка
+        double DenisYearOld = Denis * 12; // Годовая ЗП по старой ставки
+        double DenisYearNew = DenisUp * 12; // Годовая ЗП по новой ставки
+        double DenisYearDifference = DenisYearNew - DenisYearOld; // разница
+        System.out.println("Денис теперь получает " + DenisUp + " рублей. Годовой доход вырос на " + DenisYearDifference + " рублей");
+        // Кристина
+        int Kristina = 76230;
+        double KristinaUp = (Kristina * 0.1) + Kristina; // Новая ставка
+        double KristinaYearOld = Kristina * 12; // Годовая ЗП по старой ставки
+        double KristinaYearNew = KristinaUp * 12; // Годовая ЗП по новой ставки
+        double KristinaYearDifference = KristinaYearNew - KristinaYearOld; // разница
+        System.out.println("Кристина теперь получает " + KristinaUp + " рублей. Годовой доход вырос на " + KristinaYearDifference + " рублей");
 
 
     }
-}
+
+
+    }
