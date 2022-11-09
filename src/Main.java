@@ -54,6 +54,17 @@ public class Main {
         System.out.println("За 3 дня, машины произвела бутылок в колличестве " + numberOfBottles3day + " штук");
         int numberOfBottles1month = numberOfBottles1day * 31; // 31 дня
         System.out.println("За 1 месяц, машины произвела бутылок в колличестве " + numberOfBottles1month + " штук");
+        System.out.println("Задание 5");
+        int wholeCansOfPaint = 120;
+        int whitePaint = 2;
+        int brownPaint = 4;
+        int allPaintPerClass = whitePaint + brownPaint;
+        int classesAtSchool = wholeCansOfPaint / allPaintPerClass;
+        int AmountOfWhitePaintPerSchool = classesAtSchool * whitePaint;
+        int AmountOfBrownPaintPerSchool = classesAtSchool * brownPaint;
+        System.out.println("В школе, где " + classesAtSchool + " классов, нужно " + AmountOfWhitePaintPerSchool +
+                " банок белой краски и " + AmountOfBrownPaintPerSchool + " банок коричневой краски");
+
         System.out.println("Задание 6");
         float bananas = 5 * 80;
         float milk = 2 * 105;
