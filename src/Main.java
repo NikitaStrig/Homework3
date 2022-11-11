@@ -104,7 +104,29 @@ public class Main {
         double KristinaYearNew = KristinaUp * 12; // Годовая ЗП по новой ставки
         double KristinaYearDifference = KristinaYearNew - KristinaYearOld; // разница
         System.out.println("Кристина теперь получает " + KristinaUp + " рублей. Годовой доход вырос на " + KristinaYearDifference + " рублей");
+        System.out.println("Задание 6 *");
+        int a3 = 12;
+        int b3 = 27;
+        int c3 = 44;
+        int d3 = 15;
+        int e3 = 9;
+        int result = a3 * (b3 + (c3 - d3 * e3));
+        result = result * -1;
+        System.out.println("Результат = " + result);
+        System.out.println("Задание 7 *");
+        int a4 = 5;
+        int b4 = 7;
+        b4 = b4 - a4;
+        a4 = a4 + b4;
+        b4 = a4 - b4;
+        System.out.println("a = " + a4);
+        System.out.println("b = " + b4);
+        System.out.println("Задание 8 *");
 
+        int a5 = 456;
+        int c5 = (a5 / 10);
+        int b5 = c5 - ((c5 / 10) * 10);
+        System.out.println("Центральное число = " + b5);
 
     }
 
